@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Algorithms",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "250",
+    "credit": "2",
+    "img": "https://i.postimg.cc/BvCspT5v/algo.png"
+  },
+  {
+    "id": 2,
+    "title": "AWS, Cloud Computing",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "129",
+    "credit": "4",
+    "img": "https://i.postimg.cc/yNKs0QZ5/aws.png"
+  },
+  {
+    "id": 3,
+    "title": "Introduction to C Programming",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "79",
+    "credit": "2",
+    "img": "https://i.postimg.cc/sg73Qdv7/c.png"
+  },
+  {
+    "id": 4,
+    "title": "Introduction to C++ for DSA",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "149",
+    "credit": "5",
+    "img": "https://i.postimg.cc/GhZcmhhb/c.png"
+  },
+  {
+    "id": 5,
+    "title": "Database (MySQL)",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "119",
+    "credit": "4",
+    "img": "https://i.postimg.cc/LXCSKmbK/db.png"
+  },
+  {
+    "id": 6,
+    "title": "Basic Data Structures",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "89",
+    "credit": "2",
+    "img": "https://i.postimg.cc/nzcxPXTG/ds.png"
+  },
+  {
+    "id": 7,
+    "title": "Problem-Solving Part",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "109",
+    "credit": "3",
+    "img": "https://i.postimg.cc/jdWxTJT8/ps.png"
+  },
+  {
+    "id": 8,
+    "title": "Software Engineering",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "69",
+    "credit": "1",
+    "img": "https://i.postimg.cc/KcpGCD6k/py.png"
+  },
+  {
+    "id": 9,
+    "title": "Introduction to OOP Python",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "159",
+    "credit": "6",
+    "img": "https://i.postimg.cc/rmQVV1zH/swe.png"
+  }
+]
