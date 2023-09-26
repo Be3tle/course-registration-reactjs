@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
-import React, { useEffect, useState } from "react";
-import Cart from "../cart/Cart";
+import React, { useEffect, useState } from 'react';
+import Cart from '../cart/Cart';
 
 const Home = () => {
   const [allCourse, setAllCourse] = useState([]);
@@ -10,7 +10,7 @@ const Home = () => {
   const budget = 20;
 
   useEffect(() => {
-    fetch("public/data.json")
+    fetch('public/data.json')
       .then((res) => res.json())
       .then((data) => setAllCourse(data));
   }, []);
@@ -19,7 +19,7 @@ const Home = () => {
     const isExist = selectedCourse.find((item) => item.id === course.id);
 
     if (isExist) {
-      return alert("Already selected");
+      return alert('Already selected!');
     }
 
     const updatedSelectedCourse = [...selectedCourse, course];
@@ -32,7 +32,7 @@ const Home = () => {
     const remaining = budget - totalCredit;
 
     if (remaining < 0) {
-      return alert("Sorry, you reached your credit limit.");
+      return alert("Sorry, you've reached your credit limit.");
     }
 
     setSelectedCourse(updatedSelectedCourse);
